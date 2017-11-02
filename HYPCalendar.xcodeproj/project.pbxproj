@@ -86,6 +86,7 @@
 		3F49B0F21FAAB32B006AE70C /* ProfitGain@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ProfitGain@3x.png"; sourceTree = "<group>"; };
 		3F49B0F31FAAB32B006AE70C /* Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Selected@2x.png"; sourceTree = "<group>"; };
 		3F49B0F41FAAB32B006AE70C /* Selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Selected@3x.png"; sourceTree = "<group>"; };
+		3F49B0FF1FAAC6BC006AE70C /* CalendarProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarProtocol.h; sourceTree = "<group>"; };
 		59C51FC1D5F6988335D4649C /* Pods-HYPCalendarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYPCalendarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYPCalendarUITests/Pods-HYPCalendarUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A049B40D1288DDE4A696CA7 /* Pods-HYPCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYPCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYPCalendar/Pods-HYPCalendar.release.xcconfig"; sourceTree = "<group>"; };
 		7D28BEF047EEA8A0C1AD1F4B /* Pods-HYPCalendarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYPCalendarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYPCalendarUITests/Pods-HYPCalendarUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -202,6 +203,7 @@
 			children = (
 				3F49B0B11FA9CF3E006AE70C /* Calendar-PrefixHeader.pch */,
 				3F49B0B21FA9CF3E006AE70C /* Calendar.h */,
+				3F49B0FF1FAAC6BC006AE70C /* CalendarProtocol.h */,
 				3F49B0B31FA9CF3E006AE70C /* CalendarContentScrollView.h */,
 				3F49B0B41FA9CF3E006AE70C /* CalendarContentScrollView.m */,
 				3F49B0B51FA9CF3E006AE70C /* CalendarMonthsScrollView.h */,

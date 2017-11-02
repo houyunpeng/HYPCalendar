@@ -39,7 +39,7 @@
         make.height.mas_equalTo(ItemMonthWidth);
     }];
     _currentMonthLabel = [[UILabel alloc] initWithFrame:CGRectMake(15, 0, 60, ItemMonthWidth)];
-    _currentMonthLabel.text = [NSString stringWithFormat:@"%ld年",_currentComponents.year];
+    _currentMonthLabel.text = [NSString stringWithFormat:@"%ld年",(long)_currentComponents.year];
     _currentMonthLabel.textColor = [UIColor whiteColor];
     [self addSubview:_currentMonthLabel];
 //    [currentMonthLabel mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -52,6 +52,7 @@
     _monthTitleScrollView.showsHorizontalScrollIndicator = NO;
     NSInteger items = _monthsData.count;
     _monthTitleScrollView.contentSize = CGSizeMake(items*ItemMonthWidth, 0);
+//    __weak CalendarMonthsScrollView* self_weak = self;
     _monthTitleScrollView.delegate = self;
     _monthTitleScrollView.scrollEnabled = YES;
     _monthTitleScrollView.userInteractionEnabled = YES;
@@ -89,7 +90,7 @@
     }
     
     
-    NSString* text = [NSString stringWithFormat:@"%ld-%ld",_currentComponents.year,_currentComponents.month];
+    NSString* text = [NSString stringWithFormat:@"%ld-%ld",(long)_currentComponents.year,(long)_currentComponents.month];
  
     
     [self selectItemWithTag:[_monthsData indexOfObject:text]];
@@ -186,14 +187,14 @@
 
 -(void)selectItemWithYear:(NSInteger)year month:(NSInteger)month
 {
-    NSString* t = [NSString stringWithFormat:@"%ld-%ld",year,month];
+    NSString* t = [NSString stringWithFormat:@"%ld-%ld",(long)year,(long)month];
     
     NSArray* tempArr = [self sortArray:_monthsData];
     
     NSInteger tag = [tempArr indexOfObject:t];
     
     [self selectItemWithTag:tag];
-    _currentMonthLabel.text = [NSString stringWithFormat:@"%ld年",year];
+    _currentMonthLabel.text = [NSString stringWithFormat:@"%ld年",(long)year];
     
 }
 

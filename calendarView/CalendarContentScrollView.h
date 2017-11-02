@@ -65,9 +65,7 @@ typedef void(^didSelectedItemView)(ItemDayView*itemView);
 
 
 
-@protocol CalendarContentScrollViewDelegate
--(void)selectContentWithYear:(NSInteger)year month:(NSInteger)month;
-@end
+
 
 
 typedef void(^DidSelectItemDayCallBack)(ItemDayView* itemDayView);//选择天的回调

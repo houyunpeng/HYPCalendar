@@ -10,9 +10,7 @@
 #import "CalendarMonthsScrollView.h"
 #import "CalendarContentScrollView.h"
 #import "Calendar.h"
-@protocol CalendarContentScrollViewDelegate;
-@protocol CalendarMonthsScrollViewDelegate;
-
+#import "CalendarProtocol.h"
 
 @interface CalendarView : UIView <UIScrollViewDelegate,CalendarContentScrollViewDelegate,CalendarMonthsScrollViewDelegate>
 

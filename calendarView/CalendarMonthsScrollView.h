@@ -13,10 +13,10 @@ typedef void(^DidSelectItemMonthCallBack)(NSString* year,NSString* month);//é€‰æ
 
 
 
-@interface CalendarMonthsScrollView : UIView
+@interface CalendarMonthsScrollView : UIView<UIScrollViewDelegate>
 {
     NSArray* _monthsData;
-    UIScrollView* _monthTitleScrollView;
+    
     UILabel* _currentMonthLabel;
     NSDateComponents* _currentComponents;
     
@@ -29,7 +29,7 @@ typedef void(^DidSelectItemMonthCallBack)(NSString* year,NSString* month);//é€‰æ
 
 @property(nonatomic,assign)id delegate;
 @property(nonatomic,copy)DidSelectItemMonthCallBack selectItemMonthCallBack;
-
+@property(nonatomic,strong)UIScrollView* monthTitleScrollView;
 
 +(instancetype)monthsScrollViewWithFrame:(CGRect)rect monthsData:(NSArray*)monthsData currentCompomemts:(NSDateComponents*)com;
 
@@ -37,8 +37,4 @@ typedef void(^DidSelectItemMonthCallBack)(NSString* year,NSString* month);//é€‰æ
 -(void)selectItemWithYear:(NSInteger)year month:(NSInteger)month;
 -(void)selectItemWithTag:(NSInteger)tag;
 @end
-@protocol CalendarMonthsScrollViewDelegate
--(void)selectMonthViewWithYear:(NSInteger)year month:(NSInteger)month;
 
-
-@end

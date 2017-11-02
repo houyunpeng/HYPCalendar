@@ -74,7 +74,7 @@
 {
     _itemModel = itemModel;
     
-    _label.text = [NSString stringWithFormat:@"%ld",itemModel.day];
+    _label.text = [NSString stringWithFormat:@"%ld",(long)itemModel.day];
 }
 //-(void)setText:(NSString*)text
 //{
@@ -437,7 +437,7 @@
 -(void)selectYear:(NSInteger)year andMonth:(NSInteger)month
 {
     NSArray* keys = [self sortArray:_dataDic.allKeys];
-    NSString* str = [NSString stringWithFormat:@"%ld-%ld",year,month];
+    NSString* str = [NSString stringWithFormat:@"%ld-%ld",(long)year,(long)month];
     NSInteger index = [keys indexOfObject:str];
     
     [_mainScrollView setContentOffset:CGPointMake(_width*index, _mainScrollView.contentOffset.y) animated:YES];
