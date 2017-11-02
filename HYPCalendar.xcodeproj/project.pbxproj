@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F49B07E1FA9CE89006AE70C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F49B07D1FA9CE89006AE70C /* AppDelegate.m */; };
+		3F49B0811FA9CE89006AE70C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F49B0801FA9CE89006AE70C /* ViewController.m */; };
+		3F49B0861FA9CE89006AE70C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F49B0851FA9CE89006AE70C /* Assets.xcassets */; };
+		3F49B08C1FA9CE89006AE70C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F49B08B1FA9CE89006AE70C /* main.m */; };
+		3F49B0961FA9CE89006AE70C /* HYPCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F49B0951FA9CE89006AE70C /* HYPCalendarTests.m */; };
+		3F49B0A11FA9CE89006AE70C /* HYPCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F49B0A01FA9CE89006AE70C /* HYPCalendarUITests.m */; };
+		3F49B0B91FA9CF3E006AE70C /* CalendarContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F49B0B41FA9CF3E006AE70C /* CalendarContentScrollView.m */; };
+		3F49B0BA1FA9CF3E006AE70C /* CalendarMonthsScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F49B0B61FA9CF3E006AE70C /* CalendarMonthsScrollView.m */; };
+		3F49B0BB1FA9CF3E006AE70C /* CalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F49B0B81FA9CF3E006AE70C /* CalendarView.m */; };
+		3F49B0BE1FA9D029006AE70C /* CalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F49B0BD1FA9D029006AE70C /* CalendarVC.m */; };
+		3F49B0E91FAAB232006AE70C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F49B0E81FAAB232006AE70C /* Storyboard.storyboard */; };
+		3F49B0F51FAAB32B006AE70C /* calendarBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F49B0EB1FAAB32B006AE70C /* calendarBG@2x.png */; };
+		3F49B0F61FAAB32B006AE70C /* calendarBG@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F49B0EC1FAAB32B006AE70C /* calendarBG@3x.png */; };
+		3F49B0F71FAAB32B006AE70C /* CurrentDay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F49B0ED1FAAB32B006AE70C /* CurrentDay@2x.png */; };
+		3F49B0F81FAAB32B006AE70C /* CurrentDay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F49B0EE1FAAB32B006AE70C /* CurrentDay@3x.png */; };
+		3F49B0F91FAAB32B006AE70C /* PrincipalGain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F49B0EF1FAAB32B006AE70C /* PrincipalGain@2x.png */; };
+		3F49B0FA1FAAB32B006AE70C /* PrincipalGain@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F49B0F01FAAB32B006AE70C /* PrincipalGain@3x.png */; };
+		3F49B0FB1FAAB32B006AE70C /* ProfitGain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F49B0F11FAAB32B006AE70C /* ProfitGain@2x.png */; };
+		3F49B0FC1FAAB32B006AE70C /* ProfitGain@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F49B0F21FAAB32B006AE70C /* ProfitGain@3x.png */; };
+		3F49B0FD1FAAB32B006AE70C /* Selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F49B0F31FAAB32B006AE70C /* Selected@2x.png */; };
+		3F49B0FE1FAAB32B006AE70C /* Selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F49B0F41FAAB32B006AE70C /* Selected@3x.png */; };
+		B30ABD256FCCDCCF99E5AFC9 /* libPods-HYPCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B39D37C5EE2E83EB05EBC279 /* libPods-HYPCalendar.a */; };
+		B9AE3B7727F3E2D790209B55 /* libPods-HYPCalendarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A79D8245A279FDF805A59DBD /* libPods-HYPCalendarTests.a */; };
+		C90B189FDB31D2FF09A060BF /* libPods-HYPCalendarUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA853547516F661B45252EAB /* libPods-HYPCalendarUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F49B0921FA9CE89006AE70C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F49B0711FA9CE89006AE70C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F49B0781FA9CE89006AE70C;
+			remoteInfo = HYPCalendar;
+		};
+		3F49B09D1FA9CE89006AE70C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F49B0711FA9CE89006AE70C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F49B0781FA9CE89006AE70C;
+			remoteInfo = HYPCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F49B0791FA9CE89006AE70C /* HYPCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYPCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F49B07C1FA9CE89006AE70C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F49B07D1FA9CE89006AE70C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F49B07F1FA9CE89006AE70C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F49B0801FA9CE89006AE70C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F49B0851FA9CE89006AE70C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F49B08A1FA9CE89006AE70C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F49B08B1FA9CE89006AE70C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F49B0911FA9CE89006AE70C /* HYPCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYPCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F49B0951FA9CE89006AE70C /* HYPCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYPCalendarTests.m; sourceTree = "<group>"; };
+		3F49B0971FA9CE89006AE70C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F49B09C1FA9CE89006AE70C /* HYPCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYPCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F49B0A01FA9CE89006AE70C /* HYPCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYPCalendarUITests.m; sourceTree = "<group>"; };
+		3F49B0A21FA9CE89006AE70C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F49B0B11FA9CF3E006AE70C /* Calendar-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Calendar-PrefixHeader.pch"; sourceTree = "<group>"; };
+		3F49B0B21FA9CF3E006AE70C /* Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calendar.h; sourceTree = "<group>"; };
+		3F49B0B31FA9CF3E006AE70C /* CalendarContentScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarContentScrollView.h; sourceTree = "<group>"; };
+		3F49B0B41FA9CF3E006AE70C /* CalendarContentScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarContentScrollView.m; sourceTree = "<group>"; };
+		3F49B0B51FA9CF3E006AE70C /* CalendarMonthsScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonthsScrollView.h; sourceTree = "<group>"; };
+		3F49B0B61FA9CF3E006AE70C /* CalendarMonthsScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthsScrollView.m; sourceTree = "<group>"; };
+		3F49B0B71FA9CF3E006AE70C /* CalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarView.h; sourceTree = "<group>"; };
+		3F49B0B81FA9CF3E006AE70C /* CalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarView.m; sourceTree = "<group>"; };
+		3F49B0BC1FA9D029006AE70C /* CalendarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarVC.h; sourceTree = "<group>"; };
+		3F49B0BD1FA9D029006AE70C /* CalendarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarVC.m; sourceTree = "<group>"; };
+		3F49B0E81FAAB232006AE70C /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		3F49B0EB1FAAB32B006AE70C /* calendarBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendarBG@2x.png"; sourceTree = "<group>"; };
+		3F49B0EC1FAAB32B006AE70C /* calendarBG@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendarBG@3x.png"; sourceTree = "<group>"; };
+		3F49B0ED1FAAB32B006AE70C /* CurrentDay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CurrentDay@2x.png"; sourceTree = "<group>"; };
+		3F49B0EE1FAAB32B006AE70C /* CurrentDay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CurrentDay@3x.png"; sourceTree = "<group>"; };
+		3F49B0EF1FAAB32B006AE70C /* PrincipalGain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PrincipalGain@2x.png"; sourceTree = "<group>"; };
+		3F49B0F01FAAB32B006AE70C /* PrincipalGain@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PrincipalGain@3x.png"; sourceTree = "<group>"; };
+		3F49B0F11FAAB32B006AE70C /* ProfitGain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ProfitGain@2x.png"; sourceTree = "<group>"; };
+		3F49B0F21FAAB32B006AE70C /* ProfitGain@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ProfitGain@3x.png"; sourceTree = "<group>"; };
+		3F49B0F31FAAB32B006AE70C /* Selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Selected@2x.png"; sourceTree = "<group>"; };
+		3F49B0F41FAAB32B006AE70C /* Selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Selected@3x.png"; sourceTree = "<group>"; };
+		59C51FC1D5F6988335D4649C /* Pods-HYPCalendarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYPCalendarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYPCalendarUITests/Pods-HYPCalendarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A049B40D1288DDE4A696CA7 /* Pods-HYPCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYPCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYPCalendar/Pods-HYPCalendar.release.xcconfig"; sourceTree = "<group>"; };
+		7D28BEF047EEA8A0C1AD1F4B /* Pods-HYPCalendarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYPCalendarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYPCalendarUITests/Pods-HYPCalendarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8EC017A39563DC78E69E2EBB /* Pods-HYPCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYPCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYPCalendar/Pods-HYPCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		A79D8245A279FDF805A59DBD /* libPods-HYPCalendarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HYPCalendarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39D37C5EE2E83EB05EBC279 /* libPods-HYPCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HYPCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9240D3985F943203F857C7B /* Pods-HYPCalendarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYPCalendarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYPCalendarTests/Pods-HYPCalendarTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5705F56EE9618609FC579BE /* Pods-HYPCalendarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYPCalendarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYPCalendarTests/Pods-HYPCalendarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA853547516F661B45252EAB /* libPods-HYPCalendarUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HYPCalendarUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F49B0761FA9CE89006AE70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30ABD256FCCDCCF99E5AFC9 /* libPods-HYPCalendar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F49B08E1FA9CE89006AE70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AE3B7727F3E2D790209B55 /* libPods-HYPCalendarTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F49B0991FA9CE89006AE70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90B189FDB31D2FF09A060BF /* libPods-HYPCalendarUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		346AAFEA7A8239404D848E39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EC017A39563DC78E69E2EBB /* Pods-HYPCalendar.debug.xcconfig */,
+				7A049B40D1288DDE4A696CA7 /* Pods-HYPCalendar.release.xcconfig */,
+				E5705F56EE9618609FC579BE /* Pods-HYPCalendarTests.debug.xcconfig */,
+				C9240D3985F943203F857C7B /* Pods-HYPCalendarTests.release.xcconfig */,
+				59C51FC1D5F6988335D4649C /* Pods-HYPCalendarUITests.debug.xcconfig */,
+				7D28BEF047EEA8A0C1AD1F4B /* Pods-HYPCalendarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F49B0701FA9CE89006AE70C = {
+			isa = PBXGroup;
+			children = (
+				3F49B0EA1FAAB32B006AE70C /* src */,
+				3F49B0B01FA9CF3E006AE70C /* calendarView */,
+				3F49B07B1FA9CE89006AE70C /* HYPCalendar */,
+				3F49B0941FA9CE89006AE70C /* HYPCalendarTests */,
+				3F49B09F1FA9CE89006AE70C /* HYPCalendarUITests */,
+				3F49B07A1FA9CE89006AE70C /* Products */,
+				346AAFEA7A8239404D848E39 /* Pods */,
+				744B53D464FDE32AA5461216 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F49B07A1FA9CE89006AE70C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F49B0791FA9CE89006AE70C /* HYPCalendar.app */,
+				3F49B0911FA9CE89006AE70C /* HYPCalendarTests.xctest */,
+				3F49B09C1FA9CE89006AE70C /* HYPCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F49B07B1FA9CE89006AE70C /* HYPCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				3F49B0BC1FA9D029006AE70C /* CalendarVC.h */,
+				3F49B0BD1FA9D029006AE70C /* CalendarVC.m */,
+				3F49B07C1FA9CE89006AE70C /* AppDelegate.h */,
+				3F49B07D1FA9CE89006AE70C /* AppDelegate.m */,
+				3F49B07F1FA9CE89006AE70C /* ViewController.h */,
+				3F49B0801FA9CE89006AE70C /* ViewController.m */,
+				3F49B0E81FAAB232006AE70C /* Storyboard.storyboard */,
+				3F49B0851FA9CE89006AE70C /* Assets.xcassets */,
+				3F49B08A1FA9CE89006AE70C /* Info.plist */,
+				3F49B08B1FA9CE89006AE70C /* main.m */,
+			);
+			path = HYPCalendar;
+			sourceTree = "<group>";
+		};
+		3F49B0941FA9CE89006AE70C /* HYPCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F49B0951FA9CE89006AE70C /* HYPCalendarTests.m */,
+				3F49B0971FA9CE89006AE70C /* Info.plist */,
+			);
+			path = HYPCalendarTests;
+			sourceTree = "<group>";
+		};
+		3F49B09F1FA9CE89006AE70C /* HYPCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F49B0A01FA9CE89006AE70C /* HYPCalendarUITests.m */,
+				3F49B0A21FA9CE89006AE70C /* Info.plist */,
+			);
+			path = HYPCalendarUITests;
+			sourceTree = "<group>";
+		};
+		3F49B0B01FA9CF3E006AE70C /* calendarView */ = {
+			isa = PBXGroup;
+			children = (
+				3F49B0B11FA9CF3E006AE70C /* Calendar-PrefixHeader.pch */,
+				3F49B0B21FA9CF3E006AE70C /* Calendar.h */,
+				3F49B0B31FA9CF3E006AE70C /* CalendarContentScrollView.h */,
+				3F49B0B41FA9CF3E006AE70C /* CalendarContentScrollView.m */,
+				3F49B0B51FA9CF3E006AE70C /* CalendarMonthsScrollView.h */,
+				3F49B0B61FA9CF3E006AE70C /* CalendarMonthsScrollView.m */,
+				3F49B0B71FA9CF3E006AE70C /* CalendarView.h */,
+				3F49B0B81FA9CF3E006AE70C /* CalendarView.m */,
+			);
+			path = calendarView;
+			sourceTree = "<group>";
+		};
+		3F49B0EA1FAAB32B006AE70C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3F49B0EB1FAAB32B006AE70C /* calendarBG@2x.png */,
+				3F49B0EC1FAAB32B006AE70C /* calendarBG@3x.png */,
+				3F49B0ED1FAAB32B006AE70C /* CurrentDay@2x.png */,
+				3F49B0EE1FAAB32B006AE70C /* CurrentDay@3x.png */,
+				3F49B0EF1FAAB32B006AE70C /* PrincipalGain@2x.png */,
+				3F49B0F01FAAB32B006AE70C /* PrincipalGain@3x.png */,
+				3F49B0F11FAAB32B006AE70C /* ProfitGain@2x.png */,
+				3F49B0F21FAAB32B006AE70C /* ProfitGain@3x.png */,
+				3F49B0F31FAAB32B006AE70C /* Selected@2x.png */,
+				3F49B0F41FAAB32B006AE70C /* Selected@3x.png */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		744B53D464FDE32AA5461216 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B39D37C5EE2E83EB05EBC279 /* libPods-HYPCalendar.a */,
+				A79D8245A279FDF805A59DBD /* libPods-HYPCalendarTests.a */,
+				EA853547516F661B45252EAB /* libPods-HYPCalendarUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F49B0781FA9CE89006AE70C /* HYPCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F49B0A51FA9CE89006AE70C /* Build configuration list for PBXNativeTarget "HYPCalendar" */;
+			buildPhases = (
+				4E9F622152DCEA281C4C267A /* [CP] Check Pods Manifest.lock */,
+				3F49B0751FA9CE89006AE70C /* Sources */,
+				3F49B0761FA9CE89006AE70C /* Frameworks */,
+				3F49B0771FA9CE89006AE70C /* Resources */,
+				83077EDE8F444685BCBEB3F2 /* [CP] Embed Pods Frameworks */,
+				56BF1EB379A4C198E20DCA8D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYPCalendar;
+			productName = HYPCalendar;
+			productReference = 3F49B0791FA9CE89006AE70C /* HYPCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F49B0901FA9CE89006AE70C /* HYPCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F49B0A81FA9CE89006AE70C /* Build configuration list for PBXNativeTarget "HYPCalendarTests" */;
+			buildPhases = (
+				4AF796160819A06FFE27C8E0 /* [CP] Check Pods Manifest.lock */,
+				3F49B08D1FA9CE89006AE70C /* Sources */,
+				3F49B08E1FA9CE89006AE70C /* Frameworks */,
+				3F49B08F1FA9CE89006AE70C /* Resources */,
+				87FD33AFA5F84D78B4288C61 /* [CP] Embed Pods Frameworks */,
+				781ABB043D88C8F0924160A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F49B0931FA9CE89006AE70C /* PBXTargetDependency */,
+			);
+			name = HYPCalendarTests;
+			productName = HYPCalendarTests;
+			productReference = 3F49B0911FA9CE89006AE70C /* HYPCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F49B09B1FA9CE89006AE70C /* HYPCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F49B0AB1FA9CE89006AE70C /* Build configuration list for PBXNativeTarget "HYPCalendarUITests" */;
+			buildPhases = (
+				C03435A4BB5DC8A9075F5103 /* [CP] Check Pods Manifest.lock */,
+				3F49B0981FA9CE89006AE70C /* Sources */,
+				3F49B0991FA9CE89006AE70C /* Frameworks */,
+				3F49B09A1FA9CE89006AE70C /* Resources */,
+				53B2B5905205EFD62F44EF47 /* [CP] Embed Pods Frameworks */,
+				440C92B0F95BD52653C6D3A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F49B09E1FA9CE89006AE70C /* PBXTargetDependency */,
+			);
+			name = HYPCalendarUITests;
+			productName = HYPCalendarUITests;
+			productReference = 3F49B09C1FA9CE89006AE70C /* HYPCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F49B0711FA9CE89006AE70C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = hyp;
+				TargetAttributes = {
+					3F49B0781FA9CE89006AE70C = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					3F49B0901FA9CE89006AE70C = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F49B0781FA9CE89006AE70C;
+					};
+					3F49B09B1FA9CE89006AE70C = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F49B0781FA9CE89006AE70C;
+					};
+				};
+			};
+			buildConfigurationList = 3F49B0741FA9CE89006AE70C /* Build configuration list for PBXProject "HYPCalendar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F49B0701FA9CE89006AE70C;
+			productRefGroup = 3F49B07A1FA9CE89006AE70C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F49B0781FA9CE89006AE70C /* HYPCalendar */,
+				3F49B0901FA9CE89006AE70C /* HYPCalendarTests */,
+				3F49B09B1FA9CE89006AE70C /* HYPCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F49B0771FA9CE89006AE70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F49B0FE1FAAB32B006AE70C /* Selected@3x.png in Resources */,
+				3F49B0F81FAAB32B006AE70C /* CurrentDay@3x.png in Resources */,
+				3F49B0F61FAAB32B006AE70C /* calendarBG@3x.png in Resources */,
+				3F49B0FC1FAAB32B006AE70C /* ProfitGain@3x.png in Resources */,
+				3F49B0F91FAAB32B006AE70C /* PrincipalGain@2x.png in Resources */,
+				3F49B0E91FAAB232006AE70C /* Storyboard.storyboard in Resources */,
+				3F49B0F51FAAB32B006AE70C /* calendarBG@2x.png in Resources */,
+				3F49B0FA1FAAB32B006AE70C /* PrincipalGain@3x.png in Resources */,
+				3F49B0F71FAAB32B006AE70C /* CurrentDay@2x.png in Resources */,
+				3F49B0861FA9CE89006AE70C /* Assets.xcassets in Resources */,
+				3F49B0FB1FAAB32B006AE70C /* ProfitGain@2x.png in Resources */,
+				3F49B0FD1FAAB32B006AE70C /* Selected@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F49B08F1FA9CE89006AE70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F49B09A1FA9CE89006AE70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		440C92B0F95BD52653C6D3A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYPCalendarUITests/Pods-HYPCalendarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AF796160819A06FFE27C8E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HYPCalendarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E9F622152DCEA281C4C267A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HYPCalendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53B2B5905205EFD62F44EF47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYPCalendarUITests/Pods-HYPCalendarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56BF1EB379A4C198E20DCA8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYPCalendar/Pods-HYPCalendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		781ABB043D88C8F0924160A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYPCalendarTests/Pods-HYPCalendarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83077EDE8F444685BCBEB3F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYPCalendar/Pods-HYPCalendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87FD33AFA5F84D78B4288C61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYPCalendarTests/Pods-HYPCalendarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C03435A4BB5DC8A9075F5103 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HYPCalendarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F49B0751FA9CE89006AE70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F49B0BB1FA9CF3E006AE70C /* CalendarView.m in Sources */,
+				3F49B0811FA9CE89006AE70C /* ViewController.m in Sources */,
+				3F49B0BE1FA9D029006AE70C /* CalendarVC.m in Sources */,
+				3F49B0B91FA9CF3E006AE70C /* CalendarContentScrollView.m in Sources */,
+				3F49B0BA1FA9CF3E006AE70C /* CalendarMonthsScrollView.m in Sources */,
+				3F49B08C1FA9CE89006AE70C /* main.m in Sources */,
+				3F49B07E1FA9CE89006AE70C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F49B08D1FA9CE89006AE70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F49B0961FA9CE89006AE70C /* HYPCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F49B0981FA9CE89006AE70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F49B0A11FA9CE89006AE70C /* HYPCalendarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F49B0931FA9CE89006AE70C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F49B0781FA9CE89006AE70C /* HYPCalendar */;
+			targetProxy = 3F49B0921FA9CE89006AE70C /* PBXContainerItemProxy */;
+		};
+		3F49B09E1FA9CE89006AE70C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F49B0781FA9CE89006AE70C /* HYPCalendar */;
+			targetProxy = 3F49B09D1FA9CE89006AE70C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F49B0A31FA9CE89006AE70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F49B0A41FA9CE89006AE70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F49B0A61FA9CE89006AE70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EC017A39563DC78E69E2EBB /* Pods-HYPCalendar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYPCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hyp.HYPCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3F49B0A71FA9CE89006AE70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A049B40D1288DDE4A696CA7 /* Pods-HYPCalendar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYPCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hyp.HYPCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3F49B0A91FA9CE89006AE70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5705F56EE9618609FC579BE /* Pods-HYPCalendarTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYPCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hyp.HYPCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYPCalendar.app/HYPCalendar";
+			};
+			name = Debug;
+		};
+		3F49B0AA1FA9CE89006AE70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9240D3985F943203F857C7B /* Pods-HYPCalendarTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYPCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hyp.HYPCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYPCalendar.app/HYPCalendar";
+			};
+			name = Release;
+		};
+		3F49B0AC1FA9CE89006AE70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C51FC1D5F6988335D4649C /* Pods-HYPCalendarUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYPCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hyp.HYPCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYPCalendar;
+			};
+			name = Debug;
+		};
+		3F49B0AD1FA9CE89006AE70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D28BEF047EEA8A0C1AD1F4B /* Pods-HYPCalendarUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HYPCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hyp.HYPCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HYPCalendar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F49B0741FA9CE89006AE70C /* Build configuration list for PBXProject "HYPCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F49B0A31FA9CE89006AE70C /* Debug */,
+				3F49B0A41FA9CE89006AE70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F49B0A51FA9CE89006AE70C /* Build configuration list for PBXNativeTarget "HYPCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F49B0A61FA9CE89006AE70C /* Debug */,
+				3F49B0A71FA9CE89006AE70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F49B0A81FA9CE89006AE70C /* Build configuration list for PBXNativeTarget "HYPCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F49B0A91FA9CE89006AE70C /* Debug */,
+				3F49B0AA1FA9CE89006AE70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F49B0AB1FA9CE89006AE70C /* Build configuration list for PBXNativeTarget "HYPCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F49B0AC1FA9CE89006AE70C /* Debug */,
+				3F49B0AD1FA9CE89006AE70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F49B0711FA9CE89006AE70C /* Project object */;
+}
